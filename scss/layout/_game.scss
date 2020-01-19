@@ -1,0 +1,42 @@
+#game-page {
+  display: none;
+  width: 85%;
+  margin: 50px auto 0 auto;
+  max-width: 350px;
+  .question-container {
+    height: 25vh;
+    max-height: 300px;
+    padding: 25px;
+    @include flex-center;
+    border-radius: 10px;
+    position: relative;
+    .game-mode-display {
+      position: absolute;
+      left: 0;
+      top: -30px;
+    }
+    .current-question {
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding: 10px 10px 10px 15px;
+      border-radius: 10px 20px 20px 0;
+    }
+    .game-category {
+      position: absolute;
+      right: 10px;
+      top: 5px;
+    }
+  }
+  .choices {
+    margin: 40px 0 0 0;
+    .choice {
+      margin: 10px 0;
+      height: 1vh;
+      max-height: 70px;
+      padding: 25px;
+      border-radius: 10px;
+      @include flex-center;
+    }
+  }
+}

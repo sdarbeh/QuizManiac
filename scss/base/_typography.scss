@@ -1,0 +1,221 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-image: linear-gradient(to right, $color-theme1, $color-theme2);
+  a {
+    text-decoration: none;
+  }
+}
+//logo
+.circle-logo {
+  .logo-top-left-color {
+    fill: $color-theme3;
+  }
+  .logo-top-left-shade {
+    fill: darken($color-theme3, 25);
+  }
+  .logo-top-right-color {
+    fill: $color-theme4;
+  }
+  .logo-top-right-shade {
+    fill: darken($color-theme4, 25);
+  }
+  .logo-bottom-right-color {
+    fill: $color-theme2;
+  }
+  .logo-bottom-right-shade {
+    fill: darken($color-theme2, 25);
+  }
+  .logo-bottom-left-color {
+    fill: $color-theme1;
+  }
+  .logo-bottom-left-shade {
+    fill: darken($color-theme1, 25);
+  }
+}
+//homepage
+#homepage {
+  .home-title {
+    color: $color-light;
+    span {
+      color: $color-theme3;
+    }
+  }
+  .game-level-title {
+    font-size: 1.2rem;
+  }
+  h2 {
+    cursor: pointer;
+  }
+  .easy-mode {
+    background-color: lighten($color-theme1, 20);
+  }
+  .medium-mode {
+    background-image: linear-gradient(to right, darken($color-theme2, 25), $color-theme1);
+  }
+  .maniac-mode {
+    background-image: linear-gradient(to right, $color-theme1, darken($color-theme4, 25));
+  }
+  .lock {
+    fill: $color-theme3;
+  }
+  .unlock-message {
+    font-size: .9rem;
+    color: $color-medium;
+  }
+}
+
+//category
+#category-page {
+  color: $color-light;
+  .title {
+    background-color: rgba(0, 0, 0, 0.5);
+    h1 {
+      font-size: 1.5rem;
+      font-weight: normal;
+    }
+    .game-mode {
+      font-weight: bold;
+      color: $color-dark;
+    }
+  }
+  .category {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    cursor: pointer;
+    span {
+      text-align: left;
+    }
+    .next {
+      fill: lighten($color-theme1, 15);
+    }
+  }
+  .return {
+    fill: $color-dark;
+    color: $color-dark;
+    cursor: pointer;
+  }
+}
+//game
+#game-page {
+  .question-container {
+    background-color: $color-light;
+    text-align: center;
+    box-shadow: 6px 8px 10px -8px $color-dark;
+    .game-mode-display {
+      span {
+        font-weight: bold;
+      }
+    }
+    .question {
+      font-weight: bold;
+    }
+    .current-question {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+  .choice {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+//
+#results-page {
+  .results-head {
+    //background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+  }
+  .game-results-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    font-weight: normal;
+    span {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .results-level {
+      font-size: .8rem;
+    }
+    .you-scored {
+      font-size: 1.1rem;
+    }
+    .score-percentage {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .view-answers {
+      background-color: lighten($color-theme1, 15);
+      cursor: pointer;
+    }
+  }
+  .result-menu {
+    svg {
+      cursor: pointer;
+    }
+    p {
+      font-size: .8rem;
+      font-weight: bold;
+    }
+  }
+  .results-logo-title {
+    color: $color-light;
+    font-size: 1.2rem;
+    span {
+      color: $color-theme3;
+    }
+  }
+  .results-foot {
+    transform: scale(.6);
+    .author-credit {
+      font-weight: bold;
+      color: $color-dark;
+      a {
+        color: $color-dark;
+        fill: $color-dark;
+      }
+    }
+  }
+}
+
+//fixed
+body {
+  #category-head {
+    background-color: rgba(0, 0, 0, 0.3);
+    .correct-amount, .incorrect-amount, .coins-amount {
+      background-color: rgba(0, 0, 0, 0.4);
+      color: $color-light;
+    }
+    .check {
+      fill: $color-correct;
+    }
+    .x-mark {
+      fill: $color-wrong;
+    }
+    .coin-icon {
+      fill: $color-theme3;
+    }
+  }
+  #fixed-settings {
+    .setting-icon {
+      fill: darken($color-theme2, 25);
+      cursor: pointer;
+    }
+    .stat-bar {
+      fill: lighten($color-theme1, 20);
+      cursor: pointer;
+    }
+    .high-score {
+      fill: $color-light;
+      cursor: pointer;
+    }
+    .fixed-coin-icon {
+      fill: $color-theme3;
+    }
+    .coins-amount {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

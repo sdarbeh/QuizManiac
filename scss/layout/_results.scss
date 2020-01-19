@@ -1,0 +1,63 @@
+#results-page {
+  display: none;
+  .results-page {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .results-head {
+      padding: 10px 0;
+      h1 {
+        margin: 0;
+      }
+    }
+    .game-results-content {
+      width: 85%;
+      margin: 0 auto;
+      padding: 15px 0;
+      @include max-width;
+      .view-answers {
+        padding: 10px 15px;
+        width: 40%;
+        max-width: 200px;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+    }
+    .result-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 80%;
+      margin: 20px auto;
+      max-width: 250px;
+      .go-to-home, .go-to-categories, .play-again {
+        position: relative;
+        p {
+          position: absolute;
+          bottom: -30px;
+          left: -15px;
+          width: max-content;
+        }
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .results-foot {
+      .logo {
+        .circle-logo {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      .author-credit {
+        svg {
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// Global colors
+$color-theme1: #186572;
+$color-theme2: #6a8a82;
+$color-theme3: #ffe675;
+$color-theme4: #ff6e88;
+
+$color-dark: #282726;
+$color-medium: #8E8E8E;
+$color-light: #F2F2F2;
+
+$color-correct: #2B8E15;
+$color-wrong: #AA100D;
+
+//SVG
+$color-linkedin: #0e76a8;
+$color-github: #8E8E8E;
+$color-html: #e34f26;
+$color-css: #2965f1;
+$color-sass: #c69;
+$color-js: #f7df1e;
+$color-jQ: #0769ad;
+
+//fonts
+$font-primary: 'Poppins', sans-serif;
+
+//Media Query Sizes
+$breakpoints: (
+        "s": 650px,
+        "m": 768px,
+        "l": 1024px,
+        "xl": 1200px,
+);

@@ -1,0 +1,32 @@
+#homepage {
+  .easy-mode:hover {
+    background-color: lighten($color-theme1, 30);
+  }
+  @include mq("l") {
+
+    }
+}
+#category-page {
+  .next {
+    transition: .5s;
+  }
+  .category:hover {
+    .next {
+      transform: scale(.7);
+      margin-right: -10px!important;
+      fill: $color-dark!important;
+    }
+  }
+  .return, .return svg {
+    transition: .5s;
+  }
+  .return:hover {
+    transform: scale(.9);
+    left: 10px;
+    fill: darken($color-dark, 10);
+    color: darken($color-dark, 10);
+    svg {
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin max-width {
+  max-width: 700px;
+}
+
+// Media queries
+@mixin  mq($break) {
+  $value: map-get($breakpoints, $break);
+  $sm: map_get($breakpoints, "s");
+
+  @if $value < $sm {
+    @media (min-width: $value) {
+      @content;
+    }}
+  @else  {
+    @media (min-width: $value) {
+      @content;
+    }
+  }
+}

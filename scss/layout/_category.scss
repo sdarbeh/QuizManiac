@@ -1,0 +1,79 @@
+//category page
+#category-page {
+  display: none;
+  .title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    .title-container {
+      width: 85%;
+      @include max-width;
+      height: 75px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+    h1 {
+      margin: 0 auto 0 0;
+    }
+  }
+  .options {
+    width: 85%;
+    @include max-width;
+    margin: 100px auto 0 auto;
+    .category {
+      padding: 25px 25px;
+      margin: 20px 0;
+      text-align: center;
+      display: flex;
+      border-radius: 5px;
+      align-items: center;
+      position: relative;
+      .icon {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+      }
+      span {
+        position: absolute;
+        left: 6px;
+        width: 75%;
+        height: 46%;
+        padding: 20px 0 0 70px;
+      }
+      .next {
+        margin: 0 0 0 auto;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+  .return {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    svg {
+      width: 35px;
+      height: 35px;
+      margin-right: 5px;
+    }
+  }
+  @include mq("s") {
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .category {
+        width: 40%;
+        margin: 10px 0;
+      }
+    }
+    .return {
+      top: 10px;
+      left: 10px;
+    }
+  }
+}
