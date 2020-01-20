@@ -3,56 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88a58c18-8f1f-44a7-98f1-97461930469b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/00a477b8203babd8f5f8d6fc7a30da4fbf661b13/styles.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/101af3063e3d4dd5315275a86230165287545a85/styles.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/1e0f2695fa344c1c979a86e24aa2aa48ffb75251/styles.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/200ab79e6318e47676260aa51fde2f2e644cb446/_animations.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/200ab79e6318e47676260aa51fde2f2e644cb446/_hamburger.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/200ab79e6318e47676260aa51fde2f2e644cb446/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/25b4a04ec454b1022a4d856a81528bbdd7c0c613/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/25b4a04ec454b1022a4d856a81528bbdd7c0c613/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/25b4a04ec454b1022a4d856a81528bbdd7c0c613/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_body.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_category.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_game.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_home.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_results.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4409770259c9b1b88bf35bb7956b6815ff337983/_body.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4409770259c9b1b88bf35bb7956b6815ff337983/_category.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4409770259c9b1b88bf35bb7956b6815ff337983/_game.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4409770259c9b1b88bf35bb7956b6815ff337983/_home.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4409770259c9b1b88bf35bb7956b6815ff337983/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4f2e8e4f38cf59da5acb41a8eda0bda20817e74f/_body.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4f2e8e4f38cf59da5acb41a8eda0bda20817e74f/_category.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4f2e8e4f38cf59da5acb41a8eda0bda20817e74f/_home.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4f2e8e4f38cf59da5acb41a8eda0bda20817e74f/_index.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/4f2e8e4f38cf59da5acb41a8eda0bda20817e74f/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/51b5df8bb924c7450d79f367609978ee2683f714/_animations.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/51b5df8bb924c7450d79f367609978ee2683f714/_hamburger.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/51b5df8bb924c7450d79f367609978ee2683f714/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/72e55657c8e52d974817741c8b26d546664d4840/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/72e55657c8e52d974817741c8b26d546664d4840/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/72e55657c8e52d974817741c8b26d546664d4840/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/9be69acf1ece1f89f1cb610a8f91aced61ddff9a/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/9be69acf1ece1f89f1cb610a8f91aced61ddff9a/_normalize.min.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/9be69acf1ece1f89f1cb610a8f91aced61ddff9a/_typography.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/aa245ffc4829cbbdb12fc893aae70820fb93e024/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/aa245ffc4829cbbdb12fc893aae70820fb93e024/_mixins.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/aa245ffc4829cbbdb12fc893aae70820fb93e024/_variables.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/da13c22b70f838075d094f23f92439254e31172e/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/da13c22b70f838075d094f23f92439254e31172e/_normalize.min.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/da13c22b70f838075d094f23f92439254e31172e/_typography.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/f38ce8ac137c4daa9d66416f575e053e2951be35/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/f38ce8ac137c4daa9d66416f575e053e2951be35/_normalize.min.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/f38ce8ac137c4daa9d66416f575e053e2951be35/_typography.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/f404cbc3a9b8c27e51245d1f39cc97f557852149/_animations.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/f404cbc3a9b8c27e51245d1f39cc97f557852149/_hamburger.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/f404cbc3a9b8c27e51245d1f39cc97f557852149/_index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +39,9 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\Personal Projects\QuizManiac\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODE\Projects\API Quiz\scss" />
     </key>
@@ -121,7 +74,7 @@
       <workItem from="1579374065747" duration="50000" />
       <workItem from="1579374336787" duration="2942000" />
       <workItem from="1579384775395" duration="46130000" />
-      <workItem from="1579479983969" duration="19291000" />
+      <workItem from="1579479983969" duration="19747000" />
     </task>
     <servers />
   </component>
