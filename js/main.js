@@ -2,6 +2,7 @@ let correct = 0;
 let missed = 0;
 let index = 0;
 let gameMode;
+
 const hundredScoreMessage = [
     "Congratulations and BRAVO!",
     "This calls for celebrating! Congratulations!",
@@ -73,7 +74,7 @@ function startGame() {
 
 function generateQuiz(data) {
     if (gameMode === "hard") {
-        gameMode = "M A N I A C"
+        gameMode = "maniac"
     }
     $(".game-mode-display").html(`Difficulty: <span>${gameMode}</span>`);
     $(".game-category").html(`${data[index].category}`);
@@ -144,7 +145,7 @@ function setResultsStats(data) {
     let scoredPercent = document.querySelector(".score-percentage");
     let percentage = Math.floor((correct / 10) * 100);
     let message = document.querySelector(".message");
-    let randomNumber = Math.round(Math.random() * 4);
+    let randomNumber = (Math.round(Math.random() * 4));
 
     difficultyLevel.innerHTML = `Difficulty: ${data[0].difficulty}`;
     gameCategory.innerHTML = `Category <br><span>${data[0].category}</span>`;
