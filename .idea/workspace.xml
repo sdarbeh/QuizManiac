@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a58c18-8f1f-44a7-98f1-97461930469b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_typography.scss" afterDir="false" />
-    </list>
+    <list default="true" id="88a58c18-8f1f-44a7-98f1-97461930469b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,16 +32,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TreehouseProjects/Front-End TechDegree/9_Capstone-Portfolio" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\CODE\Personal Projects\QuizManiac\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CODE\Projects\API Quiz\scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CODE\Personal Projects\QuizManiac\css" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -80,7 +74,7 @@
       <workItem from="1579384775395" duration="46130000" />
       <workItem from="1579479983969" duration="19747000" />
       <workItem from="1579512444731" duration="1935000" />
-      <workItem from="1579544861984" duration="811000" />
+      <workItem from="1579544861984" duration="1522000" />
     </task>
     <servers />
   </component>
@@ -96,10 +90,10 @@
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="2611" y="279" key="EditFileWatcherDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1579302948134" />
-    <state x="2538" y="238" key="FileChooserDialogImpl" timestamp="1579544998717">
+    <state x="2538" y="238" key="FileChooserDialogImpl" timestamp="1579548320543">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
-    <state x="2538" y="238" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1579544998717" />
+    <state x="2538" y="238" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1579548320543" />
     <state x="2423" y="104" key="SettingsEditor" timestamp="1579302949037">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
