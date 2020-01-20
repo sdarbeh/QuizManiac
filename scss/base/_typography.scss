@@ -55,13 +55,6 @@ body {
   .maniac-mode {
     background-image: linear-gradient(to right, $color-theme1, darken($color-theme4, 25));
   }
-  .lock {
-    fill: $color-theme3;
-  }
-  .unlock-message {
-    font-size: .9rem;
-    color: $color-medium;
-  }
 }
 
 //category
@@ -90,8 +83,8 @@ body {
     }
   }
   .return {
-    fill: $color-dark;
-    color: $color-dark;
+    fill: darken($color-theme3, 10);
+    color: darken($color-theme3, 10);
     cursor: pointer;
   }
 }
@@ -105,6 +98,12 @@ body {
       span {
         font-weight: bold;
       }
+    }
+    .loader {
+      border-top: 16px solid $color-theme3;
+      border-right: 16px solid $color-theme4;
+      border-bottom: 16px solid $color-theme2;
+      border-left: 16px solid $color-theme1;
     }
     .question {
       font-weight: bold;
@@ -159,17 +158,28 @@ body {
       font-weight: bold;
     }
   }
+  .results {
+    background-color: $color-light;
+
+    .result-content {
+      background-color: lighten($color-medium, 30);
+      text-align: left;
+    }
+    .close-modal {
+      cursor: pointer;
+    }
+  }
   .results-logo-title {
     color: $color-light;
-    font-size: 1.2rem;
+    font-size: 1rem;
     span {
       color: $color-theme3;
     }
   }
   .results-foot {
-    transform: scale(.6);
     .author-credit {
       font-weight: bold;
+      font-size: .8rem;
       color: $color-dark;
       a {
         color: $color-dark;
@@ -183,7 +193,11 @@ body {
 body {
   #category-head {
     background-color: rgba(0, 0, 0, 0.3);
-    .correct-amount, .incorrect-amount, .coins-amount {
+    .bar-title {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.4);
+    }
+    .correct-amount, .incorrect-amount, .bar-coins-amount {
       background-color: rgba(0, 0, 0, 0.4);
       color: $color-light;
     }

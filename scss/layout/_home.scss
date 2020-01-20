@@ -23,21 +23,4 @@
       text-align: center;
       margin: 20px auto;
     }
-    .medium-mode, .maniac-mode {
-      position: relative;
-      margin-bottom: 35px!important;
-    }
-    .lock {
-      width: 40px;
-      height: 40px;
-      position: absolute;
-      right: 8px;
-      top: 8px;
-      transform: rotate(10deg);
-    }
-    .unlock-message {
-      position: absolute;
-      bottom: -25px;
-      left: 23%;
-    }
 }

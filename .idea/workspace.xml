@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a58c18-8f1f-44a7-98f1-97461930469b" name="Default Changelist" comment="" />
+    <list default="true" id="88a58c18-8f1f-44a7-98f1-97461930469b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/200ab79e6318e47676260aa51fde2f2e644cb446/_animations.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/200ab79e6318e47676260aa51fde2f2e644cb446/_animations.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_body.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_body.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_game.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_game.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_home.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_home.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_results.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/37c518329349741eea786a1b551522fd48ad4db6/_results.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/.sass-cache/9be69acf1ece1f89f1cb610a8f91aced61ddff9a/_typography.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/scss/.sass-cache/9be69acf1ece1f89f1cb610a8f91aced61ddff9a/_typography.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_body.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_body.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_game.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_game.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout/_results.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_results.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.css.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WXhNPS3XDQF5EAbKLqdu7mef2s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +49,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
@@ -63,7 +87,8 @@
       <workItem from="1579372864091" duration="792000" />
       <workItem from="1579374065747" duration="50000" />
       <workItem from="1579374336787" duration="2942000" />
-      <workItem from="1579384775395" duration="35871000" />
+      <workItem from="1579384775395" duration="46130000" />
+      <workItem from="1579479983969" duration="16223000" />
     </task>
     <servers />
   </component>
@@ -79,18 +104,18 @@
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="2611" y="279" key="EditFileWatcherDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1579302948134" />
-    <state x="2538" y="238" key="FileChooserDialogImpl" timestamp="1579374112938">
+    <state x="2538" y="238" key="FileChooserDialogImpl" timestamp="1579479482795">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
-    <state x="2538" y="238" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1579374112938" />
+    <state x="2538" y="238" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1579479482795" />
     <state x="2423" y="104" key="SettingsEditor" timestamp="1579302949037">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="2423" y="104" key="SettingsEditor/0.0.3840.1080@0.0.3840.1080" timestamp="1579302949037" />
-    <state x="2533" y="249" key="run.anything.popup" timestamp="1579448124750">
+    <state x="2533" y="249" key="run.anything.popup" timestamp="1579462801412">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
-    <state x="2533" y="249" key="run.anything.popup/0.0.3840.1080@0.0.3840.1080" timestamp="1579448124750" />
+    <state x="2533" y="249" key="run.anything.popup/0.0.3840.1080@0.0.3840.1080" timestamp="1579462801412" />
     <state x="2610" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579308836100">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>

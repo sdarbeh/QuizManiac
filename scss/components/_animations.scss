@@ -2,9 +2,12 @@
   .easy-mode:hover {
     background-color: lighten($color-theme1, 30);
   }
-  @include mq("l") {
-
-    }
+  .medium-mode:hover {
+    background-image: linear-gradient(to right, $color-theme1, darken($color-theme2, 25));
+  }
+  .maniac-mode:hover {
+    background-image: linear-gradient(to right, darken($color-theme4, 25), $color-theme1);
+  }
 }
 #category-page {
   .next {
@@ -23,10 +26,38 @@
   .return:hover {
     transform: scale(.9);
     left: 10px;
-    fill: darken($color-dark, 10);
-    color: darken($color-dark, 10);
+    fill: darken($color-theme3, 15);
+    color: darken($color-theme3, 15);
     svg {
       margin-right: 10px;
     }
   }
+}
+#game-page {
+  .loader {
+    animation: spin 2s linear infinite;
+  }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+//scroll bar
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: $color-light;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color-theme1;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lighten($color-theme1, 30);
 }
